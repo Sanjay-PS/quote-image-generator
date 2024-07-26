@@ -1,0 +1,36 @@
+.image-generator {
+    width: 70vw;
+    background: #ddd;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-div {
+    padding: 36px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 8px 8px 12px 4px rgba(0, 0, 0, 0.2); */
+}
+
+.author-name {
+    flex-grow: 1;
+    align-content: flex-end;
+}
+
+.save-button {
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
